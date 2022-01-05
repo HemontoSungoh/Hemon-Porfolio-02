@@ -73,13 +73,61 @@ p{
 }
 .Text_center h3{
 	font-size: 35px;
-	color:red;
+	color:rebeccapurple;
 }
 .Text_center h1{
 	font-size: 80px;
-	color:deepskyblue;
+	color:tan;
 }
 /*-------Background Image Part End----------*/
+/*-------About Me Part Start------------*/
+#about_me_part{
+	overflow: hidden;
+}
+.about_me_h1{
+	text-align: center;
+	font-size: 65px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.abt_me_left_side{
+	float: left;
+	width: 490px;
+	margin-right: 40px;
+}
+.abt_me_left_side img{
+	width:480px;
+	border-radius: 4px;
+	margin-top:15px;
+}
+.abt_me_right_side{
+	float: left;
+	width:490px;
+}
+.abt_me_right_side h3{
+	font-size: 30px;
+	font-weight: 700;
+}
+.abt_me_right_side p{
+	text-align: justify;
+}
+.know_More_about_me{
+	background-color: black;
+	color:white;
+	padding: 15px 60px;
+	border-radius: 5px;
+	font-weight: bold;
+	transition:1.2 all ease-in-out;
+}
+.know_More_about_me:hover{
+	border:1px solid green;
+	text-decoration:none;
+	box-shadow: 0px 8px 10px -7px #000000;
+	background-color: grey;
+	color:white;
+}
+/*-------About Me Part End--------------*/
 
 
 
