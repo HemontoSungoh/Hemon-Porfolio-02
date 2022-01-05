@@ -134,6 +134,7 @@ p{
 .services_part{
 	overflow: hidden;
 	margin-bottom: 30px;
+	display: block;
 }
 .services_part h1{
 	text-align: center;
@@ -168,6 +169,7 @@ p{
 	margin-bottom: 1px;
 	display: block;
 	text-align: center;
+	overflow: hidden;
 }
 .My_services_single_area a:hover{
 	text-decoration: none;
