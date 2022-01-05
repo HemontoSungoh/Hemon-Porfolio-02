@@ -59,7 +59,7 @@ p{
 	margin:0 auto;
 }
 .bakground_bg{
-	background-color: #F0EBED;
+	background-color: #F6F5F3;
 }
 .background_1st_img img{
 	width:1020px;
@@ -133,11 +133,9 @@ p{
 }
 /*-------About Me Part End--------------*/
 /*-------My Services Part Start--------------*/
-.my_services_bg{
-	
-}
+
 .services_part{
-	/*--overflow: hidden;--*/
+	overflow: hidden;
 	margin-bottom: 30px;
 }
 .services_part h1{
@@ -178,12 +176,14 @@ p{
 }
 .My_services_single_area a:hover{
 	text-decoration: none;
-	background-color: beige;
+	background-color: #808080;
+	color:white;
 }
 /*-------My Services Part End--------------*/
 /*-------Contact form Part start--------------*/
-..contact_form_area{
+.contact_form_area{
 	margin-top: 20px;
+	
 }
 .contact_form_area h1{
 	text-align: center;
@@ -191,6 +191,46 @@ p{
 	font-weight:bold ;
 	margin-bottom: 1px solid #ddd;
 }
+.contact_us_bg{
+	background-color:#FFFFFF;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-bottom: 16px; 
+	resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  input[type=Email] {
+	width: 96%;
+	background-color: white;
+	color: white;
+	padding: 12px 20px;
+	border:1px solid #CCCCCC;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+ 
+ input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  .contact_form {
+	border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+	padding: 20px;
+  }
 /*-------Contact form Part End--------------*/
 
 
