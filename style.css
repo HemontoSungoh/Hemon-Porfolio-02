@@ -54,3 +54,39 @@ p{
 	float:right;
 }
 /*-------------------------------------*/
+.container{
+	margin:0 auto;
+}
+.bakground_bg{
+	background-color: #F0EBED;
+}
+.background_1st_img img{
+	width:1020px;
+}
+/*-------Background Image Part Start----------*/
+.Text_center{
+	position: absolute;
+  	top: 30%;
+  	left: 52%;
+  	transform: translate(-50%, -50%);
+
+}
+.Text_center h3{
+	font-size: 35px;
+	color:red;
+}
+.Text_center h1{
+	font-size: 80px;
+	color:deepskyblue;
+}
+/*-------Background Image Part End----------*/
+
+
+
+
+
+
+
+
+
+
