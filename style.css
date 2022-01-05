@@ -115,26 +115,27 @@ p{
 	text-align: justify;
 }
 .know_More_about_me{
-	background-color: black;
-	color:white;
+	background-color:#ddd;
+	color:black;
 	padding: 15px 60px;
 	border-radius: 5px;
+	border:1px solid green;
 	font-weight: bold;
-	transition:1.2 all ease-in-out;
+	transition:0.9 all ease;
+	
 }
 .know_More_about_me:hover{
 	border:1px solid green;
 	text-decoration:none;
-	box-shadow: 0px 8px 10px -7px #000000;
+	
 	background-color: grey;
 	color:white;
 }
 /*-------About Me Part End--------------*/
 /*-------My Services Part Start--------------*/
 .services_part{
-	overflow: hidden;
+	/*--overflow: hidden;--*/
 	margin-bottom: 30px;
-	display: block;
 }
 .services_part h1{
 	text-align: center;
@@ -149,6 +150,7 @@ p{
 	margin-right: 20px;
 	border:1px solid #ddd;
 	border-radius: 4px;
+	
 }
 .nomrgn_right{
 	margin-right: 0px;
@@ -161,19 +163,20 @@ p{
 	text-align: justify;
 	padding: 2px;
 }
-.My_services_single_area span a{
-	background-color: black;
-	color:white;
+.My_services_single_area a{
+	background-color: #ddd;
+	color:black;
 	padding: 10px 18px;
 	border-radius: 4px;
-	margin-bottom: 1px;
+	border:1px solid green;
 	display: block;
 	text-align: center;
-	overflow: hidden;
+	font-weight: bold;
 }
 .My_services_single_area a:hover{
 	text-decoration: none;
-
+	
+	background-color: beige;
 }
 
 
